@@ -11,5 +11,8 @@ const tutorials = [
   'what is JSONP?'
 ];
 
+<<<<<<< HEAD
 // yup just one line :D
+=======
+>>>>>>> 1b0548e38375e1f42d897d76261f1a8a0b72cf7f
 const titleCased = () => tutorials.map(string => string.split(' ').map(word => word.toLowerCase().charAt(0).toUpperCase() + word.slice(1)).join(' '))
